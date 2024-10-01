@@ -57,7 +57,7 @@ public class MyServlet extends HttpServlet {
 		
 		//API Key
 		//api setup
-				String apiKey = "85bbc6b6aba013952368d654548f2dfe";
+				String apiKey = "ADD-YOUR-API-KEY";
 				// Get the city from the form input
 //		        String city = request.getParameter("city"); 
 		        String city = URLEncoder.encode(request.getParameter("city"), "UTF-8");
